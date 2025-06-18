@@ -4,7 +4,9 @@
 
 Simple pacman in console working in python <br>
 Crossplatform, but if you run in windows, better graphics in stadart cmd ;)
-### Install 
-pip install keyboard <br>
-pip install termcolor <br>
-python main.py <br>
+## Install 
+`pip install keyboard` <br>
+`pip install termcolor` <br>
+`python main.py` <br>
+### If on linux
+`sudo python3 main.py`

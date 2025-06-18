@@ -35,27 +35,27 @@ class colorTerm(enum.Enum):
     no = 12
 def colorPrint(string = "", color = colorTerm.no):
     if color == colorTerm.red:
-        sys.stdout.write(colored(string, 'black', 'on_red'))
+        sys.stdout.write(colored(string, 'grey', 'on_red'))
     elif color == colorTerm.green:
-        sys.stdout.write(colored(string, 'black', 'on_green'))
+        sys.stdout.write(colored(string, 'grey', 'on_green'))
     elif color == colorTerm.yellow:
-        sys.stdout.write(colored(string, 'black', 'on_yellow'))
+        sys.stdout.write(colored(string, 'grey', 'on_yellow'))
     elif color == colorTerm.blue:
-        sys.stdout.write(colored(string, 'black', 'on_blue'))
+        sys.stdout.write(colored(string, 'grey', 'on_blue'))
     elif color == colorTerm.magenta:
-        sys.stdout.write(colored(string, 'black', 'on_magenta'))
+        sys.stdout.write(colored(string, 'grey', 'on_magenta'))
     elif color == colorTerm.cyan:
-        sys.stdout.write(colored(string, 'black', 'on_cyan'))
+        sys.stdout.write(colored(string, 'grey', 'on_cyan'))
     elif color == colorTerm.white:
-        sys.stdout.write(colored(string, 'black', 'on_white'))
+        sys.stdout.write(colored(string, 'grey', 'on_white'))
     elif color == colorTerm.light_grey:
-        sys.stdout.write(colored(string, 'black', 'on_light_grey'))
+        sys.stdout.write(colored(string, 'grey', 'on_light_grey'))
     elif color == colorTerm.light_red:
-        sys.stdout.write(colored(string, 'black', 'on_light_red'))
+        sys.stdout.write(colored(string, 'grey', 'on_light_red'))
     elif color == colorTerm.light_green:
-        sys.stdout.write(colored(string, 'black', 'on_light_green'))
+        sys.stdout.write(colored(string, 'grey', 'on_light_green'))
     elif color == colorTerm.light_yellow:
-        sys.stdout.write(colored(string, 'black', 'on_light_yellow'))
+        sys.stdout.write(colored(string, 'grey', 'on_light_yellow'))
     elif color == colorTerm.default:
         sys.stdout.write(string)
     else:
@@ -404,8 +404,8 @@ def showWinScreen():
     synbol = "###"
     for i in range(10):
         print(synbol * 21)
-    print(synbol * 10 + colored('YOU', 'black', 'on_green') + synbol * 10)
-    print(synbol * 10 + colored('WIN', 'black', 'on_green') + synbol * 10)
+    print(synbol * 10 + colored('YOU', 'grey', 'on_green') + synbol * 10)
+    print(synbol * 10 + colored('WIN', 'grey', 'on_green') + synbol * 10)
     for i in range(10):
         print(synbol * 21)
     
@@ -414,8 +414,8 @@ def showGameOverScreen():
     synbol = "###"
     for i in range(10):
         print(synbol * 21)
-    print(synbol * 10 + colored('GAME', 'black', 'on_red') + synbol * 9 + "##")
-    print(synbol * 10 + colored('OVER', 'black', 'on_red') + synbol * 9 + "##")
+    print(synbol * 10 + colored('GAME', 'grey', 'on_red') + synbol * 9 + "##")
+    print(synbol * 10 + colored('OVER', 'grey', 'on_red') + synbol * 9 + "##")
     for i in range(10):
         print(synbol * 21)
 def clear_screen():
