@@ -1,7 +1,8 @@
 # pacmanConsole
-
-![alt text](https://github.com/AndreyBatuev/pacmanConsole/blob/main/ScreenShot.png?raw=true)
-
+Screenshot in windows CMD <br>
+![alt text](https://github.com/AndreyBatuev/pacmanConsole/blob/main/ScreenShot.png?raw=true)<br><br>
+Video program (xubuntu)<br>
+![demo](https://github.com/AndreyBatuev/pacmanConsole/raw/main/demo.gif)<br><br>
 Simple pacman in console working in python <br>
 Crossplatform, but if you run in windows, better graphics in stadart cmd ;)
 ## Install 
